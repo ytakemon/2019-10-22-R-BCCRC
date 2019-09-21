@@ -1,0 +1,288 @@
+I"y-
+<iframe src="https://www.eventbrite.com/tickets-external?eid=72996609825&amp;ref=etckt" frameborder="0" width="100%" height="280px" scrolling="auto">
+</iframe>
+
+<h2 id="general">General Information</h2>
+<p>This workshop is intended for trainees and staff at BC Cancer with limited or no experience in the R language and/or any form of coding language. We will work towards becoming familiar with how to read and write data, types of data structures, data manipulation, and other forms of general utilities that can help speed up data processing and analyses.</p>
+
+<p>Our goal is to introduce (new) concepts and vocabulary, and most importantly exposure to working in R.</p>
+
+<p>We encourage those with coding experience (python, C, C++, unix, etc.) to help your neighbours!</p>
+
+<p id="where">
+  <strong>Where:</strong>
+  Diamond Lecture Theatre, 675 W 10th, Vancouver, Canada.
+  Get directions with
+  <a href="//www.openstreetmap.org/?mlat=49.262580&amp;mlon=-123.118720&amp;zoom=16">OpenStreetMap</a>
+  or
+  <a href="//maps.google.com/maps?q=49.262580,-123.118720">Google Maps</a>.
+</p>
+
+<p id="when">
+  <strong>When:</strong>
+  Oct 22-23, 2019.
+  <a href="//calendar.google.com/calendar/render?action=TEMPLATE&amp;text=Software Carpentry Workshop&amp;dates=20191022/20191023&amp;trp=false&amp;sprop&amp;sprop=name:&amp;sf=true&amp;output=xml&amp;location=Diamond Lecture Theatre, 675 W 10th, Vancouver, Canada&amp;details=Software Carpentry Workshop at BC Cancer">Add to your Google Calendar.</a>
+
+</p>
+
+<p id="requirements">
+  <strong>Requirements:</strong> Participants must bring a laptop with a
+  Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on. They should have a few specific software packages installed (listed <a href="#setup">below</a>).
+</p>
+
+<p id="code-of-conduct">
+<strong>Code of Conduct:</strong>  Everyone who participates in Carpentries activities is required to conform to the <a href="https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html">Code of Conduct</a>. This document also outlines how to report an incident if needed.
+</p>
+
+<p id="accessibility">
+  <strong>Accessibility:</strong> We are committed to making this workshop
+  accessible to everybody.
+  The workshop organizers have checked that:
+</p>
+<ul>
+  <li>The room is wheelchair / scooter accessible.</li>
+  <li>Accessible restrooms are available.</li>
+</ul>
+<p>
+  Materials will be provided in advance of the workshop and
+  large-print handouts are available if needed by notifying the
+  organizers in advance.  If we can help making learning easier for
+  you (e.g. sign-language interpreters, lactation facilities) please
+  get in touch (using contact details below) and we will
+  attempt to provide them.
+</p>
+
+<p id="contact">
+  <strong>Contact</strong>:
+  Please email
+  
+  
+  
+  
+  
+  <a href="mailto:ytakemon@bcgsc.ca">ytakemon@bcgsc.ca</a>
+  
+  
+  for more information.
+</p>
+
+<hr />
+
+<h2 id="surveys">Surveys</h2>
+<p>Please be sure to complete these surveys before and after the workshop.</p>
+
+<p><a href="https://www.surveymonkey.com/r/swc_pre_workshop_v1?workshop_id=">Pre-workshop Survey</a></p>
+<p><a href="https://www.surveymonkey.com/r/swc_post_workshop_v1?workshop_id=">Post-workshop Survey</a></p>
+
+<hr />
+
+<h2 id="schedule">Schedule</h2>
+
+<div class="row">
+  <div class="col-md-6">
+    <h3>Day 1</h3>
+    <table class="table table-striped">
+      <tr> <td>Before</td> <td><a href="https://www.surveymonkey.com/r/swc_pre_workshop_v1?workshop_id=">Pre-workshop survey</a> </td> </tr>
+      <tr> <td>09:00</td>  <td>Automating Tasks with the Unix Shell</td> </tr>
+      <tr> <td>10:30</td>  <td>Morning break</td> </tr>
+      <tr> <td>12:00</td>  <td>Lunch break</td> </tr>
+      <tr> <td>13:00</td>  <td>Building Programs with Python</td> </tr>
+      <tr> <td>14:30</td>  <td>Afternoon break</td> </tr>
+      <tr> <td>16:00</td>  <td>Wrap-up</td> </tr>
+      <tr> <td>16:30</td>  <td>END</td> </tr>
+    </table>
+  </div>
+  <div class="col-md-6">
+    <h3>Day 2</h3>
+    <table class="table table-striped">
+      <tr> <td>09:00</td>  <td>Version Control with Git</td> </tr>
+      <tr> <td>10:30</td>  <td>Morning break</td> </tr>
+      <tr> <td>12:00</td>  <td>Lunch break</td> </tr>
+      <tr> <td>13:00</td>  <td>Managing Data with SQL</td> </tr>
+      <tr> <td>14:30</td>  <td>Afternoon break</td> </tr>
+      <tr> <td>16:00</td>  <td>Wrap-up</td> </tr>
+      <tr> <td>16:30</td>  <td><a href="https://www.surveymonkey.com/r/swc_post_workshop_v1?workshop_id=" target="_blank">Post-workshop Survey</a></td> </tr>
+      <tr> <td>16:40</td>  <td>END</td> </tr>
+    </table>
+  </div>
+</div>
+
+<p id="collaborative_notes">
+  We will use this <a href="http://pad.carpentries.org/2019-10-21-BCCRC">collaborative document</a> for chatting, taking notes, and sharing URLs and bits of code.
+</p>
+
+<hr />
+
+<h2 id="syllabus">Syllabus</h2>
+
+<div class="row">
+  <div class="col-md-6">
+    <h3 id="syllabus-shell">The Unix Shell</h3>
+    <ul>
+      <li>Files and Directories</li>
+      <li>History and Tab Completion</li>
+      <li>Pipes and Redirection</li>
+      <li>Looping Over Files</li>
+      <li>Creating and Running Shell Scripts</li>
+      <li>Finding Things</li>
+      <li><a href="https://swcarpentry.github.io/shell-novice/reference">Reference...</a></li>
+    </ul>
+  </div>
+  <div class="col-md-6">
+    <h3 id="syllabus-python">Programming in Python</h3>
+    <ul>
+      <li>Using Libraries</li>
+      <li>Working with Arrays</li>
+      <li>Reading and Plotting Data</li>
+      <li>Creating and Using Functions</li>
+      <li>Loops and Conditionals</li>
+      <li>Defensive Programming</li>
+      <li>Using Python from the Command Line</li>
+      <li><a href="https://swcarpentry.github.io/python-novice-inflammation/reference">Reference...</a></li>
+    </ul>
+  </div>
+  <!--
+  <div class="col-md-6">
+    <h3 id="syllabus-r">Programming in R</h3>
+    <ul>
+      <li>Working with Vectors and Data Frames</li>
+      <li>Reading and Plotting Data</li>
+      <li>Creating and Using Functions</li>
+      <li>Loops and Conditionals</li>
+      <li>Using R from the Command Line</li>
+      <li><a href="https://swcarpentry.github.io/r-novice-inflammation/reference">Reference...</a></li>
+    </ul>
+  </div>
+  -->
+  <!--
+  <div class="col-md-6">
+    <h3 id="syllabus-matlab">Programming in MATLAB</h3>
+    <ul>
+      <li>Working with Arrays</li>
+      <li>Reading and Plotting Data</li>
+      <li>Creating and Using Functions</li>
+      <li>Loops and Conditionals</li>
+      <li>Defensive Programming</li>
+      <li><a href="https://swcarpentry.github.io/matlab-novice-inflammation/reference">Reference...</a></li>
+     </ul>
+   </div>
+   -->
+</div>
+
+<div class="row">
+  <div class="col-md-6">
+    <h3 id="syllabus-git">Version Control with Git</h3>
+    <ul>
+      <li>Creating a Repository</li>
+      <li>Recording Changes to Files: <code>add</code>, <code>commit</code>, ...</li>
+      <li>Viewing Changes: <code>status</code>, <code>diff</code>, ...</li>
+      <li>Ignoring Files</li>
+      <li>Working on the Web: <code>clone</code>, <code>pull</code>, <code>push</code>, ...</li>
+      <li>Resolving Conflicts</li>
+      <li>Open Licenses</li>
+      <li>Where to Host Work, and Why</li>
+      <li><a href="https://swcarpentry.github.io/git-novice/reference">Reference...</a></li>
+    </ul>
+  </div>
+  <div class="col-md-6">
+    <h3 id="syllabus-sql">Managing Data with SQL</h3>
+    <ul>
+      <li>Reading and Sorting Data</li>
+      <li>Filtering with <code>where</code></li>
+      <li>Calculating New Values on the Fly</li>
+      <li>Handling Missing Values</li>
+      <li>Combining Values Using Aggregation</li>
+      <li>Combining Information From Multiple Tables Using <code>join</code></li>
+      <li>Creating, Modifying, and Deleting Data</li>
+      <li>Programming with Databases</li>
+      <li><a href="https://swcarpentry.github.io/sql-novice-survey/reference">Reference...</a></li>
+    </ul>
+  </div>
+    <!--
+  <div class="col-md-6">
+    <h3 id="syllabus-r">Open Refine</h3>
+    <ul>
+      <li>Introduction to OpenRefine</li>
+      <li>Importing Data</li>
+      <li>Basic Functions</li>
+      <li>Advanced Functions</li>
+      <li><a href="library-openrefine/reference">Reference...</a></li>
+    </ul>
+  </div>-->
+</div>
+
+<hr />
+
+<h2 id="setup">Setup</h2>
+
+<p>
+  To participate in a
+  
+  Software Carpentry
+  
+  workshop,
+  you will need access to the software described below.
+  In addition, you will need an up-to-date web browser.
+</p>
+<p>
+  We maintain a list of common issues that occur during installation as a reference for instructors
+  that may be useful on the
+  <a href="https://github.com/swcarpentry/workshop-template/wiki/Configuration-Problems-and-Solutions">Configuration Problems and Solutions wiki page</a>.
+</p>
+
+<div id="r"> 
+  <h3>R</h3>
+
+  <p>
+    <a href="https://www.r-project.org">R</a> is a programming language
+    that is especially powerful for data exploration, visualization, and
+    statistical analysis. To interact with R, we use
+    <a href="https://www.rstudio.com/">RStudio</a>.
+  </p>
+
+  <div>
+    <ul class="nav nav-tabs nav-justified" role="tablist">
+      <li role="presentation" class="active"><a data-os="windows" href="#rstats-windows" aria-controls="Windows" role="tab" data-toggle="tab">Windows</a></li>
+      <li role="presentation"><a data-os="macos" href="#rstats-macos" aria-controls="MacOS" role="tab" data-toggle="tab">MacOS</a></li>
+      <li role="presentation"><a data-os="linux" href="#rstats-linux" aria-controls="Linux" role="tab" data-toggle="tab">Linux</a></li>
+    </ul>
+
+    <div class="tab-content">
+      <article role="tabpanel" class="tab-pane active" id="rstats-windows">
+        <a href="https://www.youtube.com/watch?v=q0PjTAylwoU">Video Tutorial</a>
+        <p>
+          Install R by downloading and running
+          <a href="https://cran.r-project.org/bin/windows/base/release.htm">this .exe file</a>
+          from <a href="https://cran.r-project.org/index.html">CRAN</a>.
+          Also, please install the
+          <a href="https://www.rstudio.com/products/rstudio/download/#download">RStudio IDE</a>.
+          Note that if you have separate user and admin accounts, you should run the
+          installers as administrator (right-click on .exe file and select "Run as
+          administrator" instead of double-clicking). Otherwise problems may occur later,
+          for example when installing R packages.
+        </p>
+      </article>
+      <article role="tabpanel" class="tab-pane active" id="rstats-macos">
+        <a href="https://www.youtube.com/watch?v=5-ly3kyxwEg">Video Tutorial</a>
+        <p>
+          Install R by downloading and running
+          <a href="https://cran.r-project.org/bin/macosx/R-latest.pkg">this .pkg file</a>
+          from <a href="https://cran.r-project.org/index.html">CRAN</a>.
+          Also, please install the
+          <a href="https://www.rstudio.com/products/rstudio/download/#download">RStudio IDE</a>.
+        </p>
+      </article>
+      <article role="tabpanel" class="tab-pane active" id="rstats-linux">
+        <p>
+          You can download the binary files for your distribution
+          from <a href="https://cran.r-project.org/index.html">CRAN</a>. Or
+          you can use your package manager (e.g. for Debian/Ubuntu
+          run <code>sudo apt-get install r-base</code> and for Fedora run
+          <code>sudo dnf install R</code>).  Also, please install the
+          <a href="https://www.rstudio.com/products/rstudio/download/#download">RStudio IDE</a>.
+        </p>
+      </article>
+    </div>
+  </div>
+</div>
+:ET

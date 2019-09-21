@@ -124,6 +124,34 @@ We encourage those with coding experience (python, C, C++, unix, etc.) to help y
 
 <h2 id="schedule">Schedule</h2>
 
+<div class="row">
+<div class="col-md-6">
+<h3>Tuesday, October 22nd</h3>
+<table class="table table-striped">
+<tr> <td>01:00</td>  <td> <a href="https://ytakemon.github.io/2018-07-30-MDIBL-CompAging-Intro2R/">Workshop Overview</a> </td></tr>
+<tr> <td>01:10</td>  <td> <a href="https://ytakemon.github.io/2018-07-30-MDIBL-CompAging-Intro2R/01-rstudio-intro/">Introduction to R and RStudio</a> </td></tr>
+<tr> <td>01:20</td>  <td> <a href="https://ytakemon.github.io/2018-07-30-MDIBL-CompAging-Intro2R/02-filedir/">Navigating files and directories</a> </td></tr>
+<tr> <td>01:40</td>  <td> <a href="https://ytakemon.github.io/2018-07-30-MDIBL-CompAging-Intro2R/02-project-intro/">Project management</a> </td></tr>
+<tr> <td>01:50</td>  <td> <a href="https://ytakemon.github.io/2018-07-30-MDIBL-CompAging-Intro2R/03-seeking-help/">Seeking help</a> </td></tr>
+<tr> <td>02:00</td>  <td> <a href="https://ytakemon.github.io/2018-07-30-MDIBL-CompAging-Intro2R/15-knitr-markdown/">Producing reports with knitr</a> </td></tr>
+<tr> <td>02:30</td>  <td> <a href="https://ytakemon.github.io/2018-07-30-MDIBL-CompAging-Intro2R/04-data-structures-part1/">Understanding data structures</a> </td></tr>
+<tr> <td>03:00</td>  <td> <a href="https://ytakemon.github.io/2018-07-30-MDIBL-CompAging-Intro2R/05-data-structures-part2/">Exploring data frames</a> </td></tr>
+<tr> <td>03:30</td>  <td> <a href="https://ytakemon.github.io/2018-07-30-MDIBL-CompAging-Intro2R/06-data-subsetting/">Subsetting Data</a> </td></tr>
+<tr> <td>03:45</td> <td>Wrap-up</td></tr>
+</table>
+
+<h3>Tuesday, October 23rd</h3>
+<table class="table table-striped">
+<tr> <td>01:00</td>  <td>Recap</td></tr>
+<tr> <td>01:15</td>  <td> <a href="https://ytakemon.github.io/2018-07-30-MDIBL-CompAging-Intro2R/07-control-flow/">Control flow</a> </td></tr>
+<tr> <td>02:00</td>  <td> <a href="https://ytakemon.github.io/2018-07-30-MDIBL-CompAging-Intro2R/10-functions/">Creating functions</a> </td></tr>
+<tr> <td>02:45</td>  <td> <a href="https://ytakemon.github.io/2018-07-30-MDIBL-CompAging-Intro2R/08-plot-ggplot2/">Publication quality graphics</a> </td></tr>
+<tr> <td>03:30</td>  <td> <a href="https://ytakemon.github.io/2018-07-30-MDIBL-CompAging-Intro2R/11-writing-data/">Writing data</a> </td></tr>
+<tr> <td>03:45</td>  <td>Wrap-up</td></tr>
+</table>
+</div>
+</div>
+
 {% if page.carpentry == "swc" %}
 {% include sc/schedule.html %}
 {% elsif page.carpentry == "dc" %}
