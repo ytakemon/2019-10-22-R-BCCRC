@@ -17,15 +17,10 @@ email: ["ytakemon@bcgsc.ca"]    # boxed, comma-separated list of contact email a
 collaborative_notes: http://pad.carpentries.org/2019-10-21-BCCRC    # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
 eventbrite: "72996609825"           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
 ---
-
 {% comment %}
-EVENTBRITE
-
-This block includes the Eventbrite registration widget if
-'eventbrite' has been set in the header.  You can delete it if you
-are not using Eventbrite, or leave it in, since it will not be
-displayed if the 'eventbrite' field in the header is not set.
+  Website url: https://ytakemon.github.io/2019-10-22-R-BCCRC
 {% endcomment %}
+
 {% if page.eventbrite %}
 <iframe
   src="https://www.eventbrite.com/tickets-external?eid={{page.eventbrite}}&ref=etckt"
